@@ -1,0 +1,34 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://milind-chaudhari@bitbucket.org/m-square-systems/taskcrm-api.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1028.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.2.0",
+    "mongoose-validation-error-message-handler": "^1.2.1",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/m-square-systems/taskcrm-api/issues"
+  },
+  "homepage": "https://bitbucket.org/m-square-systems/taskcrm-api#readme"
+}
